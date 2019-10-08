@@ -1,3 +1,5 @@
+import "./NavBar.scss";
+
 const navBarStyle = {
     backgroundColor: "red",
     color: "white",
@@ -6,7 +8,7 @@ const navBarStyle = {
 };
 
 const NavBar = () => (
-    <div className="NavBar" style={navBarStyle}>
+    <div className="NavBar">
         NAVBAR
     </div>
 );
