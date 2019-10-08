@@ -1,9 +1,6 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
-const Index = () => (
-    <div>
-        <p>Thank you, next.</p>
-    </div>
-)
+const Index = () => <Layout>Welcome to WHATABYTE</Layout>
 
 export default Index;
