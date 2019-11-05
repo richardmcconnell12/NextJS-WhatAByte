@@ -1,13 +1,6 @@
 import "./NavBar.scss";
 import NavButton from "./NavButton";
 
-const navBarStyle = {
-  backgroundColor: "red",
-  color: "white",
-  width: "100%",
-  height: "60px"
-};
-
 const NavBar = props => (
   <div className="NavBar">
     {props.navButtons.map(button => (
